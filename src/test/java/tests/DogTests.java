@@ -25,7 +25,7 @@ public class DogTests {
     public void animalTypeTests()
     {
         assertEquals(AnimalType.DOMESTIC, actualDog.getAnimalType(), "Animal Type Expected[" + AnimalType.DOMESTIC
-            + "] Actual[" + actualDog.getAnimalType() + "]");
+                + "] Actual[" + actualDog.getAnimalType() + "]");
     }
 
     @Test
@@ -76,7 +76,7 @@ public class DogTests {
     public void dogGoesGrrTest()
     {
         actualDog = new Dog(AnimalType.WILD, Skin.UNKNOWN,Gender.UNKNOWN, Breed.UNKNOWN);
-        assertEquals("The dog goes Grr! Grr!", actualDog.speak(), "I was expecting Grr");
+        assertEquals("The dog goes grr! grr!", actualDog.speak(), "I was expecting Grr");
     }
 
     @Test

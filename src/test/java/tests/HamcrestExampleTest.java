@@ -6,6 +6,7 @@ import animals.petstore.pet.attributes.Breed;
 import animals.petstore.pet.attributes.Gender;
 import animals.petstore.pet.attributes.Skin;
 import animals.petstore.pet.types.Dog;
+import animals.petstore.pet.types.Snake;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
